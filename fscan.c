@@ -38,7 +38,7 @@ void main(){
 
   max = head;
 
-	printf("\n%d-->",head);
+	printf("\n%d",head);
 	for(i=0;i<qsize;i++)
 	{
 		if(max<queue[i])
@@ -46,7 +46,7 @@ void main(){
 				
 				temp = abs(max - queue[i]);
 				diff+=temp;
-				printf("%d-->",queue[i]);
+				printf("-->%d",queue[i]);
 				max=queue[i];
 				visited[i]=1;
 			}
@@ -62,7 +62,7 @@ void main(){
 				
 			temp = abs(max - queue[i]);
 			diff+=temp;
-			printf("%d-->",queue[i]);
+			printf("-->%d",queue[i]);
 			max=queue[i];
 			visited[i]=1;
 		}
