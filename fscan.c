@@ -55,7 +55,7 @@ void main(){
 	diff+=abs(High-max);
 	max=High;
 	
-	for(i=qsize-2;i>=0;i--)
+	for(i=qsize-1;i>=0;i--)
 	{	
 		if(max>queue[i] && !visited[i])
 		{
@@ -69,6 +69,6 @@ void main(){
 	}
 	
   printf("\nTotal seek time is %d",diff);
-  printf("\nAverage seek time is %f",(diff/(float)qsize));
+  printf("\nAverage seek time is %1.3f",(diff/(float)qsize));
 
 }
