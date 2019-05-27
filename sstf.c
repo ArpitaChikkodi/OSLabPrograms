@@ -1,7 +1,7 @@
 #include<math.h>
 #include<stdio.h>
 #include<stdlib.h>
-int main()
+void main()
 {
     int i,n,k,req[50],mov=0,cp,index[50],min,a[50],j=0,mini,cp1;
     printf("\nEnter the current position : ");
