@@ -99,6 +99,7 @@ void main(){
                 
             case 3: exit(0);
             default: printf("\nInvalid choice!");
+                     break;
         }
     }
 }
