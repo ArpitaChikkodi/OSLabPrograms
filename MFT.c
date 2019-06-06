@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+void main()
 {
 	int ms,os,bs, nob, ef,n, mp[10],tif=0;
 	int i,p=0;
