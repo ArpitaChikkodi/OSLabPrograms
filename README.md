@@ -1,2 +1,2 @@
 # Operating_System
-Operating system lab program
+Operating system lab programs
